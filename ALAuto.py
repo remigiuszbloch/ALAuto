@@ -121,6 +121,7 @@ class ALAuto(object):
     def run_enhancement_cycle(self):
         """Method to run the enhancement cycle.
         """
+
         if self.modules['enhancement']:
             self.modules['enhancement'].enhancement_logic_wrapper()
 
